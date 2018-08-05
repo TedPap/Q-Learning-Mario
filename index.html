@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Q-Learning Super Mario World</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<h1>Q-Learning Super Mario World</h1>
+				<h5>A Semester Assignment by <a href="https://github.com/TedPap" target="_blank">Thodoris Papathanasiou</a></h5>
+				<img  src="Media/Images/mario_banner.png" style="padding-top: 20px; height: 360px; width: auto;">
+			</div>
+
+			<div class="col-sm-12 text-center" style="padding-top: 20px;">
+				<h3>Video of the agent finishing the first level of Super Mario World (USA)</h3>
+				<div class="col-sm-6 col-sm-offset-3">
+					<video width="720" height="360" controls autoplay loop style="margin: auto;">
+						<source src="Media/Videos/Video3.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+				<div class="col-sm-12 text-center">
+					<a href="Media/Videos" target="_blank">More videos of the learning process</a>
+				</div>
+			</div>
+
+			<div class="col-sm-6 text-center" style="padding-top: 20px;">
+				<h3>The Project <strong>report</strong> can be found <a href="Report/Semester Assignment Report.pdf" target="_blank">HERE</a></h3>
+			</div>
+			<div class="col-sm-6 text-center" style="padding-top: 20px;">
+				<h3>The Project <strong>presentation</strong> can be found <a href="Presentation/Autonomous Agents Presentation.pdf" target="_blank">HERE</a></h3>
+			</div>
+			<div class="col-sm-6 text-center" style="padding-top: 20px;">
+				<h3>The Project <strong>code</strong> can be found <a href="Code/Q-Learning_Super_Mario_World.lua" target="_blank">HERE</a></h3>
+			</div>
+			<div class="col-sm-6 text-center" style="padding-top: 20px;">
+				<h3>The Project <strong>media, results files</strong> can be found <a href="Media" target="_blank">HERE</a></h3>
+			</div>
+			<div class="col-sm-8 col-sm-offset-2 text-center" style="padding-top: 20px;">
+				<h3>Dependencies</h3>
+				</br>
+				<p>The project code is dependent to the BizHawk emulator so you'll need to follow these instructions to run the code yourself</p>
+				</br>
+				<p class="text-left">
+					1. Install /Dependencies/bizhawk_prereqs.exe or download and install https://github.com/TASVideos/BizHawk-Prereqs/releases/tag/2.1
+					</br>
+					</br>
+					2. Open BizHawk folder
+					</br>
+					</br>
+					3. Run EmuHawk.exe
+					</br>
+					</br>
+					4. In the emulator press File -> Open ROM and choose /Dependencies/Super Mario World (USA).smc . The game should now load in the emulator
+					</br>
+					</br>
+					5. In the emulator press Tools -> Lua Console
+					</br>
+					</br>
+					6. In the Lua Console press Script -> Open Script and then choose /Dependencies/BIZHAWK/Lua/Q-Learning_Super_Mario_World.lua
+					</br>
+					</br>
+					Mario should now begin to play on his own!
+					</br>
+					</br>
+				</p>
+			</div>
+			<div class="col-sm-12 text-center" style="padding-top: 100px;">
+				<p>Many thanks to Seth Bling for his awesome open-source project MarI/O at <a href="https://www.youtube.com/watch?v=qv6UVOQ0F44" target="_blank">https://www.youtube.com/watch?v=qv6UVOQ0F44</a></p>
+				<p>Without his work on the BizHawk API this project whould not be possible.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

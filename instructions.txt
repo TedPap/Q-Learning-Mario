@@ -1,0 +1,13 @@
+1. Install /Dependencies/bizhawk_prereqs.exe or download and install https://github.com/TASVideos/BizHawk-Prereqs/releases/tag/2.1
+
+2. Open BizHawk folder
+
+3. Run EmuHawk.exe
+
+4. In the emulator press File -> Open ROM and choose /Dependencies/Super Mario World (USA).smc . The game should now load in the emulator
+
+5. In the emulator press Tools -> Lua Console
+
+6. In the Lua Console press Script -> Open Script and then choose /Dependencies/BIZHAWK/Lua/Q-Learning_Super_Mario_World.lua
+
+Mario should now begin to play on his own!
