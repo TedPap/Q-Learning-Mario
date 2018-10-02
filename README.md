@@ -28,11 +28,11 @@ Mario should now begin to play on his own!
 ## Built With
 
 * [Lua](https://www.lua.org/) - The programming language used
-* [Maven](http://tasvideos.org/BizHawk.html) - The emulator used to run the agent
+* [BizHawk](http://tasvideos.org/BizHawk.html) - The emulator used to run the agent
 
 ## Authors
 
-* **Ted Pap** - *Initial work* - [PurpleBooth](https://github.com/TedPap)
+* [**Ted Pap**](http://www.tedpap.info)
 
 ## License
 
